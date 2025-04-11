@@ -52,7 +52,7 @@ export default function Introduction() {
         </motion.p>{" "}
         <motion.p className="text-white text-xl leading-relaxed">
           I'm a Frontend Developer, I love to create responsive web app that is
-          user friendly and accessible. My stacks are: React and Nextjs
+          user friendly and accessible. My stacks are: React and Nextjs.
         </motion.p>
       </motion.div>
     </motion.section>

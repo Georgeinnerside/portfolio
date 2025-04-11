@@ -5,12 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function ProjectCard({
-  id,
+  _id,
   title,
   img,
   link,
 }: {
-  id: number;
+  _id: number;
   title: string;
   img: string;
   link: string;

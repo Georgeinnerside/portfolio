@@ -1,5 +1,5 @@
 export const projectData = [
-  {
+  { 
     id: 1,
     img: "/image1.png",
     title: "analytics dashboard",
@@ -12,7 +12,7 @@ export const projectData = [
     link: "https://my-shoe-app.vercel.app/",
   },
   {
-    id: 3,
+    id:3,
     img: "/image3.png",
     title: "movie app",
     link: "https://movie-watcher-dun.vercel.app/",

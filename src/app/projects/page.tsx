@@ -18,7 +18,13 @@ export default function Projects() {
       <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full pb-24 justify-items-center">
         {projectData.map(({ id, title, img, link }) => {
           return (
-            <ProjectCard key={id} title={title} img={img} link={link} id={id} />
+            <ProjectCard
+              key={id}
+              title={title}
+              img={img}
+              link={link}
+              _id={id}
+            />
           );
         })}
       </motion.div>
