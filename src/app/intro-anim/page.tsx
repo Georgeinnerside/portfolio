@@ -21,7 +21,7 @@ export default function Introanim() {
   };
 
   return (
-    <motion.div className="flex justify-center items-center w-full mt-[12%]">
+    <motion.div className="flex justify-center items-center w-full mt-[20%]">
       <motion.div
         className="flex space-x-1 text-4xl font-bold text-green-800 text-center justify-items-center"
         variants={container}
